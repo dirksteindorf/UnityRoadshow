@@ -4,7 +4,7 @@ using System.Collections;
 public class BananaRise : MonoBehaviour {
 	
 	public	float	speed		= 0;
-	public	float	normSpeed	= 0;
+//	public	float	normSpeed	= 0;
 	public	float	direction	= 0;
 	public	float	waitInit	= 0;
 	public	float	waitMid		= 0;
@@ -19,7 +19,7 @@ public class BananaRise : MonoBehaviour {
 
 	private	float	count		= 0;
 	private	float	waitTimer	= 0;
-	private	bool	texChng		= true;
+	private bool	texChng		= false;
 
 	Vector2 endpos;
 	Vector2 startpos;
@@ -41,9 +41,9 @@ public class BananaRise : MonoBehaviour {
 	void Start () {
 	
 		startpos	= new Vector2 (this.transform.position.x, this.transform.position.y);
-		endpos		= startpos + new Vector2(0, .5f);
+		endpos		= startpos + new Vector2(0, .8f);
 		actPos		= startpos;
-		normSpeed 	= speed;
+//		normSpeed 	= speed;
         direction = 1;
 	}
 	
@@ -52,6 +52,7 @@ public class BananaRise : MonoBehaviour {
     {
         if (canMove)
         {
+			texChng = lol;
             Update2();
         } 
         else
@@ -59,8 +60,10 @@ public class BananaRise : MonoBehaviour {
             //this.transform.position.x = startpos.x;
             //this.transform.position.y = startpos.y;
             this.rigidbody2D.transform.position = startpos;
+			count = 0;
         }
     }
+
 	void Update2 ()
 	{
 		// Determine current Position
@@ -74,8 +77,8 @@ public class BananaRise : MonoBehaviour {
 			GameManager.instance.freeSlots++;
 			//if( (waitTimer += Time.deltaTime) >= waitInit )
 			//{
-			speed = normSpeed;
-			waitTimer = 0;
+			//speed = normSpeed;
+			//waitTimer = 0;
 			direction = 1;
 			this.GetComponent<SpriteRenderer> ().sprite = oldFace;
             return;
@@ -105,9 +108,8 @@ public class BananaRise : MonoBehaviour {
 			if( waitTimer >= waitMid && texChng )
 			{
 				// Change Sprite
-				if(	lol )
-					this.GetComponent<SpriteRenderer> ().sprite = newFace;
-
+				this.GetComponent<SpriteRenderer> ().sprite = newFace;
+				texChng = false;
 			}
 		}
 
@@ -123,8 +125,8 @@ public class BananaRise : MonoBehaviour {
 
 		if (actPos != startpos)
 		{
-			speed		= 5;
-			direction	= -1;
+//			speed		= 5;
+//			direction	= -1;
 			waitTimer	= 0;
 
 			// Change Sprite
@@ -133,6 +135,7 @@ public class BananaRise : MonoBehaviour {
 				this.GetComponent<SpriteRenderer> ().sprite = newFace;
 				ScoreManager.instance.addGoodBanana();
 				SpecialEffects.instance.create(laughHit, transform.position);
+				lol = false;
             }
             else
             {
@@ -143,7 +146,6 @@ public class BananaRise : MonoBehaviour {
 			GameManager.instance.freeSlots++;
 			GameManager.instance.occupationGrid[this.x, this.y] = 0;
 
-			texChng = false;
 		}
 
 

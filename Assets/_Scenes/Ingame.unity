@@ -914,7 +914,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: .600000024
-  normSpeed: 0
   direction: 0
   waitInit: .600000024
   waitMid: .600000024
@@ -1076,7 +1075,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 1
-  normSpeed: 0
   direction: 0
   waitInit: 2
   waitMid: 2
@@ -1416,7 +1414,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: .200000003
-  normSpeed: 0
   direction: 0
   waitInit: 0
   waitMid: 1
@@ -1556,7 +1553,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 1.5
-  normSpeed: 0
   direction: 0
   waitInit: .5
   waitMid: 1
@@ -1866,7 +1862,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 1.5
-  normSpeed: 0
   direction: 0
   waitInit: .5
   waitMid: 1
@@ -1987,7 +1982,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 1
-  normSpeed: 0
   direction: 0
   waitInit: 2
   waitMid: 2
@@ -2264,7 +2258,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 1
-  normSpeed: 0
   direction: 0
   waitInit: 2
   waitMid: 2
@@ -2579,7 +2572,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: .200000003
-  normSpeed: 0
   direction: 0
   waitInit: 0
   waitMid: 1
@@ -2753,7 +2745,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 1
-  normSpeed: 0
   direction: 0
   waitInit: 2
   waitMid: 2
@@ -3129,7 +3120,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: .200000003
-  normSpeed: 0
   direction: 0
   waitInit: 0
   waitMid: 1
@@ -3325,7 +3315,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: .600000024
-  normSpeed: 0
   direction: 0
   waitInit: .600000024
   waitMid: .600000024
@@ -3504,7 +3493,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 1.5
-  normSpeed: 0
   direction: 0
   waitInit: .5
   waitMid: 1
@@ -4144,7 +4132,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 1.5
-  normSpeed: 0
   direction: 0
   waitInit: .5
   waitMid: 1
@@ -4284,7 +4271,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: .200000003
-  normSpeed: 0
   direction: 0
   waitInit: 0
   waitMid: 1
@@ -4467,7 +4453,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: .600000024
-  normSpeed: 0
   direction: 0
   waitInit: .600000024
   waitMid: .600000024
@@ -4607,7 +4592,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: .600000024
-  normSpeed: 0
   direction: 0
   waitInit: .600000024
   waitMid: .600000024

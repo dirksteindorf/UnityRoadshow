@@ -17,7 +17,28 @@ public class GameManager : Singleton<GameManager>
     public GameObject[,] bananaGrid = new GameObject[width,height];
 
 	private int difficulty;
+    private float lolProbability = 0.3f;
     private float startTime;
+
+    private float speedMin = 1.2f;
+    private float speedMax = 1.5f;
+    private float midMin = 0.8f;
+    private float midMax = 1.2f;
+    private float lastMin = 1.8f;
+    private float lastMax = 2.2f;
+
+    void updateBananas()
+    {
+        for (int i=0; i<width; i++)
+        {
+            for(int j=0; j<height; j++)
+            {
+                bananaGrid[i,j].gameObject.GetComponent<BananaRise>().speed = Random.Range(speedMin, speedMax);
+                bananaGrid[i,j].gameObject.GetComponent<BananaRise>().waitMid = Random.Range(midMin,midMax);
+                bananaGrid[i,j].gameObject.GetComponent<BananaRise>().waitLast = Random.Range(lastMin,lastMax);
+            }
+        }
+    }
 
     //--------------------------------------------------------------------------
 	void initField()
@@ -58,6 +79,10 @@ public class GameManager : Singleton<GameManager>
                 bananaGrid[i,j] = GameObject.Find("Banana"+(i+1).ToString()+"."+(j+1).ToString());
                 bananaGrid[i,j].gameObject.GetComponent<BananaRise>().x = i;
                 bananaGrid[i,j].gameObject.GetComponent<BananaRise>().y = j;
+
+                bananaGrid[i,j].gameObject.GetComponent<BananaRise>().speed = Random.Range(1.2f, 1.5f);
+                bananaGrid[i,j].gameObject.GetComponent<BananaRise>().waitMid = Random.Range(0.8f,1.2f);
+                bananaGrid[i,j].gameObject.GetComponent<BananaRise>().waitLast = Random.Range(1.8f,2.2f);
             }
         }
     }
@@ -96,7 +121,6 @@ public class GameManager : Singleton<GameManager>
 	void Update () 
 	{
         // TODO: update bananas 
-        Debug.Log(freeSlots);
         while (freeSlots > 0)
         {
             int rand1 = Random.Range(0, width);
@@ -105,19 +129,31 @@ public class GameManager : Singleton<GameManager>
             if(occupationGrid[rand1,rand2] == OPEN)
             {
                 occupationGrid[rand1,rand2] = OCCUPIED;
-                //rand1++;
-                //rand2++;
-                //GameObject.Find("Banana"+rand1.ToString()+"."+rand2.ToString()).gameObject.GetComponent<BananaRise>().canMove = true;
                 bananaGrid[rand1, rand2].gameObject.GetComponent<BananaRise>().canMove = true;
+
+                if(Random.value <= lolProbability)
+                {
+                    bananaGrid[rand1, rand2].gameObject.GetComponent<BananaRise>().lol = true;
+                }
                 freeSlots--;
             }
         }
 	
-        // TODO: increase difficulty:
-        if (Time.time - startTime > 30 && difficulty == 0)
+        // increase difficulty:
+        if (Time.time - startTime > 10 && difficulty == 0)
         {
             difficulty++;
-            openHole();
+            speedMin += 0.4f;
+            speedMax += 0.4f;
+            midMin -= 0.1f;
+            midMax -= 0.1f;
+            lastMin -= 0.2f;
+            lastMax -= 0.2f;
+            lolProbability += 0.1f;
+            freeSlots++;
+           
+            updateBananas();
+            startTime = Time.time;
         }
     }
 }
