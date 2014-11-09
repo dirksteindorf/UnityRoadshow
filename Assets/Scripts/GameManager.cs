@@ -120,7 +120,9 @@ public class GameManager : Singleton<GameManager>
 	// Update is called once per frame
 	void Update () 
 	{
-        // TODO: update bananas 
+        if (Input.GetKey(KeyCode.Escape))
+            Application.Quit();
+
         while (freeSlots > 0)
         {
             int rand1 = Random.Range(0, width);
@@ -140,7 +142,7 @@ public class GameManager : Singleton<GameManager>
         }
 	
         // increase difficulty:
-        if (Time.time - startTime > 10 && difficulty == 0)
+        if (Time.time - startTime > 30 && difficulty == 0)
         {
             difficulty++;
             speedMin += 0.4f;
@@ -149,7 +151,7 @@ public class GameManager : Singleton<GameManager>
             midMax -= 0.1f;
             lastMin -= 0.2f;
             lastMax -= 0.2f;
-            lolProbability += 0.1f;
+            lolProbability += 0.08f;
             freeSlots++;
            
             updateBananas();
