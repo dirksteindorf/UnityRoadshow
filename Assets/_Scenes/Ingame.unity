@@ -2361,7 +2361,7 @@ Transform:
   m_GameObject: {fileID: 1411389591}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: .159999996, y: .99000001, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: .200000003, y: .419999987, z: 1}
   m_Children: []
   m_Father: {fileID: 1423722024}
   m_RootOrder: 0
@@ -2381,12 +2381,12 @@ GUIText:
   m_TabSize: 4
   m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
   m_Material: {fileID: 0}
-  m_FontSize: 18
+  m_FontSize: 29
   m_FontStyle: 0
   m_Color:
     serializedVersion: 2
     rgba: 4294967295
-  m_PixelCorrect: 1
+  m_PixelCorrect: 0
   m_RichText: 1
 --- !u!1 &1423722023
 GameObject:
@@ -3025,8 +3025,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1690627966}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: .469000012, y: .819999993, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: .469999999, y: .839999974, z: 0}
+  m_LocalScale: {x: .200000003, y: .349999994, z: 1}
   m_Children: []
   m_Father: {fileID: 1470044857}
   m_RootOrder: 0
@@ -3046,12 +3046,12 @@ GUIText:
   m_TabSize: 4
   m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
   m_Material: {fileID: 0}
-  m_FontSize: 15
+  m_FontSize: 37
   m_FontStyle: 0
   m_Color:
     serializedVersion: 2
     rgba: 4294967295
-  m_PixelCorrect: 1
+  m_PixelCorrect: 0
   m_RichText: 1
 --- !u!1 &1734357109
 GameObject:
@@ -3677,7 +3677,7 @@ Transform:
   m_GameObject: {fileID: 1874335844}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: .159999996, y: .920000017, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: .200000003, y: .419999987, z: 1}
   m_Children: []
   m_Father: {fileID: 1423722024}
   m_RootOrder: 1
@@ -3697,12 +3697,12 @@ GUIText:
   m_TabSize: 4
   m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
   m_Material: {fileID: 0}
-  m_FontSize: 18
+  m_FontSize: 29
   m_FontStyle: 0
   m_Color:
     serializedVersion: 2
     rgba: 4294967295
-  m_PixelCorrect: 1
+  m_PixelCorrect: 0
   m_RichText: 1
 --- !u!1001 &1912324886
 Prefab:
