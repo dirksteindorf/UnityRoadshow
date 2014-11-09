@@ -10,7 +10,7 @@ public class GameManager : MonoBehaviour
 	private int blockedFields;
 	private int freeSlots;
 
-	private const int height = 3;
+	private const int height = 4;
 	private const int width = 4;
 
     public int[,] occupationGrid = new int[width,height]; 
@@ -39,6 +39,7 @@ public class GameManager : MonoBehaviour
             if(occupationGrid[rand1,rand2] == OPEN)
             {
                 occupationGrid[rand1,rand2] = CLOSED;
+                i++;
             }
 
         }
@@ -54,6 +55,7 @@ public class GameManager : MonoBehaviour
                 if(occupationGrid[i,j] == CLOSED)
                 {
                     occupationGrid[i,j] = OPEN;
+                    return;
                 }
             }
         }
@@ -67,6 +69,8 @@ public class GameManager : MonoBehaviour
 		blockedFields = 5;
 		freeSlots = 3;
 		difficulty = 0;
+
+        initField();
         startTime = Time.time;
 	}
 	
@@ -85,6 +89,7 @@ public class GameManager : MonoBehaviour
             if(occupationGrid[rand1,rand2] == OPEN)
             {
                 occupationGrid[rand1,rand2] = OCCUPIED;
+                freeSlots--;
                 // TODO: spawn banana at occupationGrid[rand1][rand2]
             }
         }
