@@ -96,8 +96,8 @@ public class BananaRise : MonoBehaviour {
 	// Whack the Banana
 	void OnMouseDown()
 	{
-		if (Blocker.bounds.Contains (Input.mousePosition))
-			return;
+		//if (Blocker.bounds.Contains (Input.mousePosition))
+		//	return;
 
 		if (actPos != startpos)
 		{
@@ -107,7 +107,14 @@ public class BananaRise : MonoBehaviour {
 
 			// Change Sprite
 			if(	lol )
+            {
 				this.GetComponent<SpriteRenderer> ().sprite = newFace;
+                Camera.main.GetComponent<ScoreManager>().addGoodBanana();
+            }
+            else
+            {
+                Camera.main.GetComponent<ScoreManager>().addBadBanana();
+            }
 			texChng = false;
 		}
 

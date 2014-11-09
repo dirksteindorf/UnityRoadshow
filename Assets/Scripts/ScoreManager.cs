@@ -20,7 +20,7 @@ public class ScoreManager : MonoBehaviour
 	}
 
     //--------------------------------------------------------------------------
-    void addGoodBanana()
+    public void addGoodBanana()
     {
         score += 10;
         goodBananaStreak++;
@@ -30,15 +30,16 @@ public class ScoreManager : MonoBehaviour
     //--------------------------------------------------------------------------
     void checkStreak()
     {
-        if (goodBananaStreak == 10)
+        // bonus points after a streak of 10 bananas
+        if (goodBananaStreak % 10 == 0 && goodBananaStreak > 0)
         {
-            // TODO: add bonus
+            // bonus points
+            score += 300;
         }
-        // TODO: bigger streak with bigger bonus?
     }
 
     //--------------------------------------------------------------------------
-    void addBadBanana()
+    public void addBadBanana()
     {
         if (score < 5)
         {
