@@ -15,12 +15,13 @@ public class ScoreManager : Singleton<ScoreManager>
         get{ return score;}
     }
 
+	private string highScoreKey = "highScore";
+
     //--------------------------------------------------------------------------
 	// Use this for initialization
 	void Start () 
     {
-        score = 0;
-		highScore = 0;
+        initializeScoreValues();
         goodBananaStreak = 0;
 	}
 
@@ -67,5 +68,23 @@ public class ScoreManager : Singleton<ScoreManager>
 
 		scoreGUIText.text = "Score: " + score.ToString();
 		highScoreGUIText.text = "HighScore: " + highScore.ToString();
+
+		highScore = PlayerPrefs.GetInt(highScoreKey, 0);
+	}
+
+	void initializeScoreValues ()
+	{
+		score = 0;
+		highScore = PlayerPrefs.GetInt(highScoreKey, 0);
+	}
+
+	public void Save()
+	{
+		// save the high score
+		PlayerPrefs.SetInt(highScoreKey, highScore);
+		PlayerPrefs.Save();
+		
+		// return to the original game state
+		initializeScoreValues();
 	}
 }

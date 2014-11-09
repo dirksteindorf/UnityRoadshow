@@ -7,13 +7,13 @@ public class Timer : MonoBehaviour
 	private float time;
 
 	// Use this for initialization
-	void Start ()
+	void Start()
 	{
 		time = 180;
 	}
 	
 	// Update is called once per frame
-	void Update ()
+	void Update()
 	{
 		// decrease timer and convert it in the right format
 		time -= Time.deltaTime;

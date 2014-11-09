@@ -41,6 +41,10 @@ TagManager:
     userID: 2
     uniqueID: 2112757169
     locked: 0
+  - name: Playing Table
+    userID: 1
+    uniqueID: 976531517
+    locked: 0
   - name: Default
     userID: 0
     uniqueID: 0
