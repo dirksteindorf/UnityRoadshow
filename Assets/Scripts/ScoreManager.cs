@@ -1,9 +1,13 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class ScoreManager : MonoBehaviour 
+public class ScoreManager : Singleton<ScoreManager>
 {
-    private int score;
+	public GUIText scoreGUIText;
+	public GUIText highScoreGUIText;
+
+	private int score;
+	private int highScore;
     private int goodBananaStreak;
 
     public int Score
@@ -16,6 +20,7 @@ public class ScoreManager : MonoBehaviour
 	void Start () 
     {
         score = 0;
+		highScore = 0;
         goodBananaStreak = 0;
 	}
 
@@ -57,6 +62,10 @@ public class ScoreManager : MonoBehaviour
 	// Update is called once per frame
 	void Update () 
     {
-	    // TODO: draw score
+		if (highScore < score)
+			highScore = score;
+
+		scoreGUIText.text = "Score: " + score.ToString();
+		highScoreGUIText.text = "HighScore: " + highScore.ToString();
 	}
 }

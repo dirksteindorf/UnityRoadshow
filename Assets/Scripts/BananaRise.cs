@@ -109,11 +109,11 @@ public class BananaRise : MonoBehaviour {
 			if(	lol )
             {
 				this.GetComponent<SpriteRenderer> ().sprite = newFace;
-                Camera.main.GetComponent<ScoreManager>().addGoodBanana();
+				ScoreManager.instance.addGoodBanana();
             }
             else
             {
-                Camera.main.GetComponent<ScoreManager>().addBadBanana();
+                ScoreManager.instance.addBadBanana();
             }
 			texChng = false;
 		}
