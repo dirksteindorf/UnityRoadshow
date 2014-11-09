@@ -8,7 +8,7 @@ public class GameManager : MonoBehaviour
     private const int OCCUPIED = 2;
 
 	private int blockedFields;
-	private int freeSlots;
+	public int freeSlots;
 
 	private const int height = 4;
 	private const int width = 4;
@@ -31,6 +31,7 @@ public class GameManager : MonoBehaviour
             }
         }
 
+        /*
         // block some fields in the beginning
         for (int i=0; i<blockedFields;)
         {
@@ -44,17 +45,19 @@ public class GameManager : MonoBehaviour
             }
 
         }
+        */
 	}
 
     //--------------------------------------------------------------------------
     void createBananaGrid()
     {
-        for (int i=1; i<width+1; i++)
+        for (int i=0; i<width; i++)
         {
-            for(int j=1; j<height+1; j++)
+            for(int j=0; j<height; j++)
             {
-                bananaGrid[i,j] = new GameObject();
-                bananaGrid[i,j] = GameObject.Find("Banana"+i.ToString()+"."+j.ToString());
+                bananaGrid[i,j] = GameObject.Find("Banana"+(i+1).ToString()+"."+(j+1).ToString());
+                bananaGrid[i,j].gameObject.GetComponent<BananaRise>().x = i;
+                bananaGrid[i,j].gameObject.GetComponent<BananaRise>().y = j;
             }
         }
     }
@@ -79,11 +82,12 @@ public class GameManager : MonoBehaviour
 	// Use this for initialization
 	void Start () 
 	{
-		blockedFields = 5;
-		freeSlots = 3;
+		//blockedFields = 5;
+		freeSlots = 5;
 		difficulty = 0;
 
         initField();
+        createBananaGrid();
         startTime = Time.time;
 	}
 	
@@ -92,6 +96,7 @@ public class GameManager : MonoBehaviour
 	void Update () 
 	{
         // TODO: update bananas 
+        Debug.Log(freeSlots);
         while (freeSlots > 0)
         {
             int rand1 = Random.Range(0, width);
@@ -100,6 +105,10 @@ public class GameManager : MonoBehaviour
             if(occupationGrid[rand1,rand2] == OPEN)
             {
                 occupationGrid[rand1,rand2] = OCCUPIED;
+                //rand1++;
+                //rand2++;
+                //GameObject.Find("Banana"+rand1.ToString()+"."+rand2.ToString()).gameObject.GetComponent<BananaRise>().canMove = true;
+                bananaGrid[rand1, rand2].gameObject.GetComponent<BananaRise>().canMove = true;
                 freeSlots--;
             }
         }
