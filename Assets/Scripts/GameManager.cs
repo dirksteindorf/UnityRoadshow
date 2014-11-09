@@ -121,7 +121,6 @@ public class GameManager : Singleton<GameManager>
 	void Update () 
 	{
         // TODO: update bananas 
-        Debug.Log(freeSlots);
         while (freeSlots > 0)
         {
             int rand1 = Random.Range(0, width);
@@ -130,11 +129,9 @@ public class GameManager : Singleton<GameManager>
             if(occupationGrid[rand1,rand2] == OPEN)
             {
                 occupationGrid[rand1,rand2] = OCCUPIED;
-                //rand1++;
-                //rand2++;
-                //GameObject.Find("Banana"+rand1.ToString()+"."+rand2.ToString()).gameObject.GetComponent<BananaRise>().canMove = true;
                 bananaGrid[rand1, rand2].gameObject.GetComponent<BananaRise>().canMove = true;
-                if(Random.value > lolProbability)
+
+                if(Random.value <= lolProbability)
                 {
                     bananaGrid[rand1, rand2].gameObject.GetComponent<BananaRise>().lol = true;
                 }
@@ -143,16 +140,16 @@ public class GameManager : Singleton<GameManager>
         }
 	
         // increase difficulty:
-        if (Time.time - startTime > 30 && difficulty == 0)
+        if (Time.time - startTime > 10 && difficulty == 0)
         {
             difficulty++;
-            speedMin += 0.2f;
-            speedMax += 0.2f;
+            speedMin += 0.4f;
+            speedMax += 0.4f;
             midMin -= 0.1f;
             midMax -= 0.1f;
             lastMin -= 0.2f;
             lastMax -= 0.2f;
-            lolProbability += 0.05f;
+            lolProbability += 0.1f;
             freeSlots++;
            
             updateBananas();
