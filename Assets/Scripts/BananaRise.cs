@@ -135,12 +135,14 @@ public class BananaRise : MonoBehaviour {
 				this.GetComponent<SpriteRenderer> ().sprite = newFace;
 				ScoreManager.instance.addGoodBanana();
 				SpecialEffects.instance.create(laughHit, transform.position);
+				audio.Play();
 				lol = false;
             }
             else
             {
                 ScoreManager.instance.addBadBanana();
 				SpecialEffects.instance.create(sleepHit, transform.position);
+				audio.Play();
             }
             this.canMove = false;
 			GameManager.instance.freeSlots++;

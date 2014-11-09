@@ -24,8 +24,8 @@ public class GameManager : Singleton<GameManager>
     private float speedMax = 1.5f;
     private float midMin = 0.8f;
     private float midMax = 1.2f;
-    private float lastMin = 1.8f;
-    private float lastMax = 2.2f;
+    private float lastMin = 1.4f;
+    private float lastMax = 2.0f;
 
     void updateBananas()
     {
@@ -142,15 +142,15 @@ public class GameManager : Singleton<GameManager>
         }
 	
         // increase difficulty:
-        if (Time.time - startTime > 30 && difficulty == 0)
+        if (Time.time - startTime > 15 && difficulty == 0)
         {
             difficulty++;
-            speedMin += 0.4f;
-            speedMax += 0.4f;
-            midMin -= 0.1f;
-            midMax -= 0.1f;
-            lastMin -= 0.2f;
-            lastMax -= 0.2f;
+            speedMin += 0.6f;
+            speedMax += 0.6f;
+            midMin -= 0.2f;
+            midMax -= 0.3f;
+            lastMin -= 0.3f;
+            lastMax -= 0.3f;
             lolProbability += 0.08f;
             freeSlots++;
            
