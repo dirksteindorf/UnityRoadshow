@@ -9,7 +9,7 @@ public class Timer : MonoBehaviour
 	// Use this for initialization
 	void Start()
 	{
-		time = 180;
+		time = 60;
 	}
 	
 	// Update is called once per frame
