@@ -9,6 +9,9 @@ GameObject:
   m_Component:
   - 4: {fileID: 400000}
   - 212: {fileID: 21200000}
+  - 50: {fileID: 5000000}
+  - 60: {fileID: 6000000}
+  - 114: {fileID: 11400000}
   m_Layer: 0
   m_Name: Banana - Row 1
   m_TagString: Untagged
@@ -23,11 +26,89 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100000}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -4.97465229, y: 1.0608592, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
+--- !u!50 &5000000
+Rigidbody2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: .0500000007
+  m_GravityScale: 0
+  m_FixedAngle: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+--- !u!60 &6000000
+PolygonCollider2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Poly:
+    m_Paths:
+    - - {x: .600000024, y: -.280000001}
+      - {x: .689999998, y: -.109999999}
+      - {x: .699999988, y: -.0799999982}
+      - {x: .699999988, y: .109999999}
+      - {x: .689999998, y: .189999998}
+      - {x: .629999995, y: .289999992}
+      - {x: .49000001, y: .439999998}
+      - {x: .340000004, y: .540000021}
+      - {x: .189999998, y: .620000005}
+      - {x: -.109999999, y: .709999979}
+      - {x: -.310000002, y: .75}
+      - {x: -.610000014, y: .75}
+      - {x: -.600000024, y: .720000029}
+      - {x: -.379999995, y: .560000002}
+      - {x: -.25999999, y: .300000012}
+      - {x: -.400000006, y: .219999999}
+      - {x: -.430000007, y: .0599999987}
+      - {x: -.389999986, y: .0299999993}
+      - {x: -.25, y: -.0799999982}
+      - {x: -.340000004, y: -.129999995}
+      - {x: -.389999986, y: -.159999996}
+      - {x: -.330000013, y: -.389999986}
+      - {x: -.409999996, y: -.569999993}
+      - {x: -.560000002, y: -.689999998}
+      - {x: -.699999988, y: -.709999979}
+      - {x: -.709999979, y: -.74000001}
+      - {x: -.709999979, y: -.75}
+      - {x: -.419999987, y: -.75}
+      - {x: -.280000001, y: -.730000019}
+      - {x: 0, y: -.660000026}
+      - {x: .389999986, y: -.49000001}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 409f65cb1ac7a4541925ada5f4be258f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 1
+  normSpeed: 0
+  direction: 0
+  waitInit: 2
+  waitMid: 2
+  waitLast: 2
+  Blocker: {fileID: 0}
+  oldFace: {fileID: 21300000, guid: d1920268a533f194d9b8ddb6572d31dd, type: 3}
+  newFace: {fileID: 21300000, guid: 8a3312bb766f7c34a8fb2f8254e20c2c, type: 3}
+  lol: 0
 --- !u!212 &21200000
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -47,7 +128,7 @@ SpriteRenderer:
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_SortingLayerID: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: d1920268a533f194d9b8ddb6572d31dd, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1001 &100100000
