@@ -14,6 +14,7 @@ public class GameManager : MonoBehaviour
 	private const int width = 4;
 
     public int[,] occupationGrid = new int[width,height]; 
+    public GameObject[,] bananaGrid = new GameObject[width,height];
 
 	private int difficulty;
     private float startTime;
@@ -46,6 +47,19 @@ public class GameManager : MonoBehaviour
 	}
 
     //--------------------------------------------------------------------------
+    void createBananaGrid()
+    {
+        for (int i=1; i<width+1; i++)
+        {
+            for(int j=1; j<height+1; j++)
+            {
+                bananaGrid[i,j] = new GameObject();
+                bananaGrid[i,j] = GameObject.Find("Banana"+i.ToString()+"."+j.ToString());
+            }
+        }
+    }
+
+    //--------------------------------------------------------------------------
     void openHole()
     {
         for (int i=0; i<width; i++)
@@ -65,7 +79,6 @@ public class GameManager : MonoBehaviour
 	// Use this for initialization
 	void Start () 
 	{
-        //occupationGrid = new int[width][height];
 		blockedFields = 5;
 		freeSlots = 3;
 		difficulty = 0;
@@ -78,9 +91,7 @@ public class GameManager : MonoBehaviour
 	// Update is called once per frame
 	void Update () 
 	{
-        // TODO: handle player input
-
-        // TODO: update bananas (movement, destruction, face change)
+        // TODO: update bananas 
         while (freeSlots > 0)
         {
             int rand1 = Random.Range(0, width);
@@ -90,7 +101,6 @@ public class GameManager : MonoBehaviour
             {
                 occupationGrid[rand1,rand2] = OCCUPIED;
                 freeSlots--;
-                // TODO: spawn banana at occupationGrid[rand1][rand2]
             }
         }
 	
@@ -100,7 +110,5 @@ public class GameManager : MonoBehaviour
             difficulty++;
             openHole();
         }
-
-        // TODO: draw everything
-	}
+    }
 }
