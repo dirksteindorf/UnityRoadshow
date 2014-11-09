@@ -170,6 +170,9 @@ MonoBehaviour:
   oldFace: {fileID: 21300000, guid: d1920268a533f194d9b8ddb6572d31dd, type: 3}
   newFace: {fileID: 21300000, guid: 8a3312bb766f7c34a8fb2f8254e20c2c, type: 3}
   lol: 0
+  canMove: 0
+  x: 0
+  y: 0
 --- !u!60 &381916786
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -356,6 +359,9 @@ MonoBehaviour:
   oldFace: {fileID: 21300000, guid: d1920268a533f194d9b8ddb6572d31dd, type: 3}
   newFace: {fileID: 21300000, guid: 8a3312bb766f7c34a8fb2f8254e20c2c, type: 3}
   lol: 1
+  canMove: 0
+  x: 0
+  y: 0
 --- !u!60 &457385222
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -491,6 +497,9 @@ MonoBehaviour:
   oldFace: {fileID: 21300000, guid: d1920268a533f194d9b8ddb6572d31dd, type: 3}
   newFace: {fileID: 21300000, guid: 8a3312bb766f7c34a8fb2f8254e20c2c, type: 3}
   lol: 0
+  canMove: 0
+  x: 0
+  y: 0
 --- !u!60 &621872853
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -738,6 +747,9 @@ MonoBehaviour:
   oldFace: {fileID: 21300000, guid: d1920268a533f194d9b8ddb6572d31dd, type: 3}
   newFace: {fileID: 21300000, guid: 8a3312bb766f7c34a8fb2f8254e20c2c, type: 3}
   lol: 0
+  canMove: 0
+  x: 0
+  y: 0
 --- !u!60 &879877954
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -929,6 +941,9 @@ MonoBehaviour:
   oldFace: {fileID: 21300000, guid: d1920268a533f194d9b8ddb6572d31dd, type: 3}
   newFace: {fileID: 21300000, guid: 8a3312bb766f7c34a8fb2f8254e20c2c, type: 3}
   lol: 0
+  canMove: 0
+  x: 0
+  y: 0
 --- !u!60 &986192042
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -1064,6 +1079,9 @@ MonoBehaviour:
   oldFace: {fileID: 21300000, guid: d1920268a533f194d9b8ddb6572d31dd, type: 3}
   newFace: {fileID: 21300000, guid: 8a3312bb766f7c34a8fb2f8254e20c2c, type: 3}
   lol: 0
+  canMove: 0
+  x: 0
+  y: 0
 --- !u!60 &988270005
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -1311,6 +1329,9 @@ MonoBehaviour:
   oldFace: {fileID: 21300000, guid: d1920268a533f194d9b8ddb6572d31dd, type: 3}
   newFace: {fileID: 21300000, guid: 8a3312bb766f7c34a8fb2f8254e20c2c, type: 3}
   lol: 0
+  canMove: 0
+  x: 0
+  y: 0
 --- !u!60 &1083242538
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -1446,6 +1467,9 @@ MonoBehaviour:
   oldFace: {fileID: 21300000, guid: d1920268a533f194d9b8ddb6572d31dd, type: 3}
   newFace: {fileID: 21300000, guid: 8a3312bb766f7c34a8fb2f8254e20c2c, type: 3}
   lol: 0
+  canMove: 0
+  x: 0
+  y: 0
 --- !u!60 &1115268697
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -1581,6 +1605,9 @@ MonoBehaviour:
   oldFace: {fileID: 21300000, guid: d1920268a533f194d9b8ddb6572d31dd, type: 3}
   newFace: {fileID: 21300000, guid: 8a3312bb766f7c34a8fb2f8254e20c2c, type: 3}
   lol: 0
+  canMove: 0
+  x: 0
+  y: 0
 --- !u!60 &1124877515
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -1716,6 +1743,9 @@ MonoBehaviour:
   oldFace: {fileID: 21300000, guid: d1920268a533f194d9b8ddb6572d31dd, type: 3}
   newFace: {fileID: 21300000, guid: 8a3312bb766f7c34a8fb2f8254e20c2c, type: 3}
   lol: 0
+  canMove: 0
+  x: 0
+  y: 0
 --- !u!60 &1171290711
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -1851,6 +1881,9 @@ MonoBehaviour:
   oldFace: {fileID: 21300000, guid: d1920268a533f194d9b8ddb6572d31dd, type: 3}
   newFace: {fileID: 21300000, guid: 8a3312bb766f7c34a8fb2f8254e20c2c, type: 3}
   lol: 0
+  canMove: 0
+  x: 0
+  y: 0
 --- !u!60 &1240908331
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -2379,6 +2412,9 @@ MonoBehaviour:
   oldFace: {fileID: 21300000, guid: d1920268a533f194d9b8ddb6572d31dd, type: 3}
   newFace: {fileID: 21300000, guid: 8a3312bb766f7c34a8fb2f8254e20c2c, type: 3}
   lol: 0
+  canMove: 0
+  x: 0
+  y: 0
 --- !u!60 &1660549992
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -2526,6 +2562,9 @@ MonoBehaviour:
   oldFace: {fileID: 21300000, guid: d1920268a533f194d9b8ddb6572d31dd, type: 3}
   newFace: {fileID: 21300000, guid: 8a3312bb766f7c34a8fb2f8254e20c2c, type: 3}
   lol: 0
+  canMove: 0
+  x: 0
+  y: 0
 --- !u!60 &1694267989
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -2701,22 +2740,25 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1725199523}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b489245c83b7a7f4391b08e43711862d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scoreGUIText: {fileID: 0}
+  highScoreGUIText: {fileID: 0}
 --- !u!114 &1725199530
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1725199523}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7be565a77dbd1044c96d7f6eb0e02baf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  freeSlots: 0
 --- !u!1001 &1828778467
 Prefab:
   m_ObjectHideFlags: 0
@@ -2822,6 +2864,9 @@ MonoBehaviour:
   oldFace: {fileID: 21300000, guid: d1920268a533f194d9b8ddb6572d31dd, type: 3}
   newFace: {fileID: 21300000, guid: 8a3312bb766f7c34a8fb2f8254e20c2c, type: 3}
   lol: 1
+  canMove: 0
+  x: 0
+  y: 0
 --- !u!60 &1936146615
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -3137,6 +3182,9 @@ MonoBehaviour:
   oldFace: {fileID: 21300000, guid: d1920268a533f194d9b8ddb6572d31dd, type: 3}
   newFace: {fileID: 21300000, guid: 8a3312bb766f7c34a8fb2f8254e20c2c, type: 3}
   lol: 1
+  canMove: 0
+  x: 0
+  y: 0
 --- !u!60 &2082926564
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -3272,6 +3320,9 @@ MonoBehaviour:
   oldFace: {fileID: 21300000, guid: d1920268a533f194d9b8ddb6572d31dd, type: 3}
   newFace: {fileID: 21300000, guid: 8a3312bb766f7c34a8fb2f8254e20c2c, type: 3}
   lol: 0
+  canMove: 0
+  x: 0
+  y: 0
 --- !u!60 &2091057763
 PolygonCollider2D:
   m_ObjectHideFlags: 0

@@ -25,6 +25,10 @@ public class BananaRise : MonoBehaviour {
 	Vector2 startpos;
 	Vector2 actPos;
 
+    public bool canMove = false;
+    public int x;
+    public int y;
+
 
 //	public bool LerpOut=false;
 //	public bool LerpIn=false;
@@ -37,10 +41,24 @@ public class BananaRise : MonoBehaviour {
 		endpos		= startpos + new Vector2(0, .5f);
 		actPos		= startpos;
 		normSpeed 	= speed;
+        direction = 1;
 	}
 	
 	// Update is called once per frame
-	void Update ()
+    void Update()
+    {
+        if (canMove)
+        {
+            Update2();
+        } 
+        else
+        {
+            //this.transform.position.x = startpos.x;
+            //this.transform.position.y = startpos.y;
+            this.rigidbody2D.transform.position = startpos;
+        }
+    }
+	void Update2 ()
 	{
 		// Determine current Position
 		actPos = new Vector2 (this.transform.position.x, this.transform.position.y);
@@ -48,16 +66,17 @@ public class BananaRise : MonoBehaviour {
 		// Wait in the Ground
 		if (direction <= 0 && actPos == startpos)
 		{
-			direction = 0;
-			if( (waitTimer += Time.deltaTime) >= waitInit )
-			{
-				speed = normSpeed;
-				waitTimer = 0;
-				direction = 1;
-
-				if(	lol )
-					this.GetComponent<SpriteRenderer> ().sprite = oldFace;
-			}
+            canMove = false;
+            Camera.main.gameObject.GetComponent<GameManager>().occupationGrid[x,y] = 0;
+            Camera.main.gameObject.GetComponent<GameManager>().freeSlots++;
+			//if( (waitTimer += Time.deltaTime) >= waitInit )
+			//{
+			speed = normSpeed;
+			waitTimer = 0;
+			direction = 1;
+			this.GetComponent<SpriteRenderer> ().sprite = oldFace;
+            return;
+			//}
 		} 
 
 		// Calculate individual motion steps
@@ -115,6 +134,10 @@ public class BananaRise : MonoBehaviour {
             {
                 ScoreManager.instance.addBadBanana();
             }
+            this.canMove = false;
+            Camera.main.gameObject.GetComponent<GameManager>().freeSlots++;
+            Camera.main.gameObject.GetComponent<GameManager>().occupationGrid[this.x, this.y] = 0;
+
 			texChng = false;
 		}
 
