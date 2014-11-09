@@ -106,7 +106,11 @@ PlayerSettings:
   AndroidKeystoreName: 
   AndroidKeyaliasName: 
   resolutionDialogBanner: {fileID: 0}
-  m_BuildTargetIcons: []
+  m_BuildTargetIcons:
+  - m_BuildTarget: 
+    m_Icons:
+    - m_Icon: {fileID: 0}
+      m_Size: 128
   m_BuildTargetBatching: []
   webPlayerTemplate: APPLICATION:Default
   m_TemplateCustomTags: {}
@@ -152,10 +156,10 @@ PlayerSettings:
   spritePackerPolicy: 
   scriptingDefineSymbols: {}
   metroPackageName: Banana
-  metroPackageLogo: 
-  metroPackageLogo140: 
-  metroPackageLogo180: 
-  metroPackageLogo240: 
+  metroPackageLogo: Assets/Art/Banana Icons/Whack-A-Banana - Icon_50x50.png
+  metroPackageLogo140: Assets/Art/Banana Icons/Whack-A-Banana - Icon_70x70.png
+  metroPackageLogo180: Assets/Art/Banana Icons/Whack-A-Banana - Icon_90x90.png
+  metroPackageLogo240: Assets/Art/Banana Icons/Whack-A-Banana - Icon_120x120.png
   metroPackageVersion: 
   metroCertificatePath: 
   metroCertificatePassword: 
@@ -201,7 +205,7 @@ PlayerSettings:
   metroPhoneSplashScreenImage: 
   metroPhoneSplashScreenImage140: 
   metroPhoneSplashScreenImage240: 
-  metroTileShortName: 
+  metroTileShortName: Banana
   metroCommandLineArgsFile: 
   metroTileShowName: 0
   metroMediumTileShowName: 0
