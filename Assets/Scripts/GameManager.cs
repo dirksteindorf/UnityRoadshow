@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class GameManager : MonoBehaviour 
+public class GameManager : Singleton<GameManager>
 {
     private const int OPEN = 0;
     private const int CLOSED = 1;

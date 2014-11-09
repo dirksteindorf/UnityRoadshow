@@ -29,6 +29,9 @@ public class BananaRise : MonoBehaviour {
     public int x;
     public int y;
 
+	public ParticleSystem sleepHit;
+	public ParticleSystem laughHit;
+
 
 //	public bool LerpOut=false;
 //	public bool LerpIn=false;
@@ -67,8 +70,8 @@ public class BananaRise : MonoBehaviour {
 		if (direction <= 0 && actPos == startpos)
 		{
             canMove = false;
-            Camera.main.gameObject.GetComponent<GameManager>().occupationGrid[x,y] = 0;
-            Camera.main.gameObject.GetComponent<GameManager>().freeSlots++;
+            GameManager.instance.occupationGrid[x,y] = 0;
+			GameManager.instance.freeSlots++;
 			//if( (waitTimer += Time.deltaTime) >= waitInit )
 			//{
 			speed = normSpeed;
@@ -129,14 +132,16 @@ public class BananaRise : MonoBehaviour {
             {
 				this.GetComponent<SpriteRenderer> ().sprite = newFace;
 				ScoreManager.instance.addGoodBanana();
+				SpecialEffects.instance.create(laughHit, transform.position);
             }
             else
             {
                 ScoreManager.instance.addBadBanana();
+				SpecialEffects.instance.create(sleepHit, transform.position);
             }
             this.canMove = false;
-            Camera.main.gameObject.GetComponent<GameManager>().freeSlots++;
-            Camera.main.gameObject.GetComponent<GameManager>().occupationGrid[this.x, this.y] = 0;
+			GameManager.instance.freeSlots++;
+			GameManager.instance.occupationGrid[this.x, this.y] = 0;
 
 			texChng = false;
 		}

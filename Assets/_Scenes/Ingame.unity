@@ -150,7 +150,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c9d78ac911c104b4ea5c02c927c67367, type: 2}
       propertyPath: m_RootOrder
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c9d78ac911c104b4ea5c02c927c67367, type: 2}
@@ -211,6 +211,20 @@ Prefab:
     - target: {fileID: 21200000, guid: b05a10b9aaa9f2840a074f636f74e297, type: 2}
       propertyPath: m_SortingLayerID
       value: 976531517
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: b05a10b9aaa9f2840a074f636f74e297, type: 2}
+      propertyPath: sleepHit
+      value: 
+      objectReference: {fileID: 19800000, guid: 6b60e4b817c21404f8f659c0e1629a08,
+        type: 2}
+    - target: {fileID: 11400000, guid: b05a10b9aaa9f2840a074f636f74e297, type: 2}
+      propertyPath: laughHit
+      value: 
+      objectReference: {fileID: 19800000, guid: d5223f3fc5e421743808137fcd9abcd7,
+        type: 2}
+    - target: {fileID: 100000, guid: b05a10b9aaa9f2840a074f636f74e297, type: 2}
+      propertyPath: m_Name
+      value: Banana3.4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b05a10b9aaa9f2840a074f636f74e297, type: 2}
@@ -276,6 +290,20 @@ Prefab:
       propertyPath: m_SortingLayerID
       value: 976531517
       objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: b05a10b9aaa9f2840a074f636f74e297, type: 2}
+      propertyPath: sleepHit
+      value: 
+      objectReference: {fileID: 19800000, guid: 6b60e4b817c21404f8f659c0e1629a08,
+        type: 2}
+    - target: {fileID: 11400000, guid: b05a10b9aaa9f2840a074f636f74e297, type: 2}
+      propertyPath: laughHit
+      value: 
+      objectReference: {fileID: 19800000, guid: d5223f3fc5e421743808137fcd9abcd7,
+        type: 2}
+    - target: {fileID: 100000, guid: b05a10b9aaa9f2840a074f636f74e297, type: 2}
+      propertyPath: m_Name
+      value: Banana3.3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b05a10b9aaa9f2840a074f636f74e297, type: 2}
   m_RootGameObject: {fileID: 1456717443}
@@ -331,6 +359,20 @@ Prefab:
     - target: {fileID: 21200000, guid: 662c1879966287442b591b2be16dda5d, type: 2}
       propertyPath: m_SortingLayerID
       value: 976531517
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 662c1879966287442b591b2be16dda5d, type: 2}
+      propertyPath: sleepHit
+      value: 
+      objectReference: {fileID: 19800000, guid: 6b60e4b817c21404f8f659c0e1629a08,
+        type: 2}
+    - target: {fileID: 11400000, guid: 662c1879966287442b591b2be16dda5d, type: 2}
+      propertyPath: laughHit
+      value: 
+      objectReference: {fileID: 19800000, guid: d5223f3fc5e421743808137fcd9abcd7,
+        type: 2}
+    - target: {fileID: 100000, guid: 662c1879966287442b591b2be16dda5d, type: 2}
+      propertyPath: m_Name
+      value: Banana1.1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 662c1879966287442b591b2be16dda5d, type: 2}
@@ -395,6 +437,20 @@ Prefab:
     - target: {fileID: 21200000, guid: be73defaea5f0714eac7b179bf3af21a, type: 2}
       propertyPath: m_SortingLayerID
       value: 976531517
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: be73defaea5f0714eac7b179bf3af21a, type: 2}
+      propertyPath: sleepHit
+      value: 
+      objectReference: {fileID: 19800000, guid: 6b60e4b817c21404f8f659c0e1629a08,
+        type: 2}
+    - target: {fileID: 11400000, guid: be73defaea5f0714eac7b179bf3af21a, type: 2}
+      propertyPath: laughHit
+      value: 
+      objectReference: {fileID: 19800000, guid: d5223f3fc5e421743808137fcd9abcd7,
+        type: 2}
+    - target: {fileID: 100000, guid: be73defaea5f0714eac7b179bf3af21a, type: 2}
+      propertyPath: m_Name
+      value: Banana2.1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: be73defaea5f0714eac7b179bf3af21a, type: 2}
@@ -507,6 +563,20 @@ Prefab:
       propertyPath: m_SortingLayerID
       value: 976531517
       objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: b05a10b9aaa9f2840a074f636f74e297, type: 2}
+      propertyPath: sleepHit
+      value: 
+      objectReference: {fileID: 19800000, guid: 6b60e4b817c21404f8f659c0e1629a08,
+        type: 2}
+    - target: {fileID: 11400000, guid: b05a10b9aaa9f2840a074f636f74e297, type: 2}
+      propertyPath: laughHit
+      value: 
+      objectReference: {fileID: 19800000, guid: d5223f3fc5e421743808137fcd9abcd7,
+        type: 2}
+    - target: {fileID: 100000, guid: b05a10b9aaa9f2840a074f636f74e297, type: 2}
+      propertyPath: m_Name
+      value: Banana3.2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b05a10b9aaa9f2840a074f636f74e297, type: 2}
   m_RootGameObject: {fileID: 1734357109}
@@ -606,6 +676,20 @@ Prefab:
       propertyPath: m_SortingLayerID
       value: 976531517
       objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 23499e645f6915c42bfb676d486cbe06, type: 2}
+      propertyPath: sleepHit
+      value: 
+      objectReference: {fileID: 19800000, guid: 6b60e4b817c21404f8f659c0e1629a08,
+        type: 2}
+    - target: {fileID: 11400000, guid: 23499e645f6915c42bfb676d486cbe06, type: 2}
+      propertyPath: laughHit
+      value: 
+      objectReference: {fileID: 19800000, guid: d5223f3fc5e421743808137fcd9abcd7,
+        type: 2}
+    - target: {fileID: 100000, guid: 23499e645f6915c42bfb676d486cbe06, type: 2}
+      propertyPath: m_Name
+      value: Banana4.4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 23499e645f6915c42bfb676d486cbe06, type: 2}
   m_RootGameObject: {fileID: 919570910}
@@ -665,6 +749,20 @@ Prefab:
     - target: {fileID: 21200000, guid: 23499e645f6915c42bfb676d486cbe06, type: 2}
       propertyPath: m_SortingLayerID
       value: 976531517
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 23499e645f6915c42bfb676d486cbe06, type: 2}
+      propertyPath: sleepHit
+      value: 
+      objectReference: {fileID: 19800000, guid: 6b60e4b817c21404f8f659c0e1629a08,
+        type: 2}
+    - target: {fileID: 11400000, guid: 23499e645f6915c42bfb676d486cbe06, type: 2}
+      propertyPath: laughHit
+      value: 
+      objectReference: {fileID: 19800000, guid: d5223f3fc5e421743808137fcd9abcd7,
+        type: 2}
+    - target: {fileID: 100000, guid: 23499e645f6915c42bfb676d486cbe06, type: 2}
+      propertyPath: m_Name
+      value: Banana4.3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 23499e645f6915c42bfb676d486cbe06, type: 2}
@@ -730,6 +828,20 @@ Prefab:
       propertyPath: m_SortingLayerID
       value: 976531517
       objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 662c1879966287442b591b2be16dda5d, type: 2}
+      propertyPath: sleepHit
+      value: 
+      objectReference: {fileID: 19800000, guid: 6b60e4b817c21404f8f659c0e1629a08,
+        type: 2}
+    - target: {fileID: 11400000, guid: 662c1879966287442b591b2be16dda5d, type: 2}
+      propertyPath: laughHit
+      value: 
+      objectReference: {fileID: 19800000, guid: d5223f3fc5e421743808137fcd9abcd7,
+        type: 2}
+    - target: {fileID: 100000, guid: 662c1879966287442b591b2be16dda5d, type: 2}
+      propertyPath: m_Name
+      value: Banana1.4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 662c1879966287442b591b2be16dda5d, type: 2}
   m_RootGameObject: {fileID: 1253388932}
@@ -748,7 +860,7 @@ GameObject:
   - 60: {fileID: 423332346}
   - 114: {fileID: 423332344}
   m_Layer: 0
-  m_Name: Banana - Row 2
+  m_Name: Banana2.3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -811,6 +923,11 @@ MonoBehaviour:
   oldFace: {fileID: 21300000, guid: d1920268a533f194d9b8ddb6572d31dd, type: 3}
   newFace: {fileID: 21300000, guid: 8a3312bb766f7c34a8fb2f8254e20c2c, type: 3}
   lol: 0
+  canMove: 0
+  x: 0
+  y: 0
+  sleepHit: {fileID: 19800000, guid: 6b60e4b817c21404f8f659c0e1629a08, type: 2}
+  laughHit: {fileID: 19800000, guid: d5223f3fc5e421743808137fcd9abcd7, type: 2}
 --- !u!50 &423332345
 Rigidbody2D:
   m_ObjectHideFlags: 0
@@ -898,7 +1015,7 @@ Transform:
   - {fileID: 1423722024}
   - {fileID: 1470044857}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
 --- !u!1 &482413113
 GameObject:
   m_ObjectHideFlags: 0
@@ -912,7 +1029,7 @@ GameObject:
   - 60: {fileID: 482413118}
   - 114: {fileID: 482413116}
   m_Layer: 0
-  m_Name: Banana - Row 1
+  m_Name: Banana1.2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -968,6 +1085,11 @@ MonoBehaviour:
   oldFace: {fileID: 21300000, guid: d1920268a533f194d9b8ddb6572d31dd, type: 3}
   newFace: {fileID: 21300000, guid: 8a3312bb766f7c34a8fb2f8254e20c2c, type: 3}
   lol: 0
+  canMove: 0
+  x: 0
+  y: 0
+  sleepHit: {fileID: 19800000, guid: 6b60e4b817c21404f8f659c0e1629a08, type: 2}
+  laughHit: {fileID: 19800000, guid: d5223f3fc5e421743808137fcd9abcd7, type: 2}
 --- !u!212 &482413117
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1089,6 +1211,20 @@ Prefab:
       propertyPath: m_SortingLayerID
       value: 976531517
       objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: be73defaea5f0714eac7b179bf3af21a, type: 2}
+      propertyPath: sleepHit
+      value: 
+      objectReference: {fileID: 19800000, guid: 6b60e4b817c21404f8f659c0e1629a08,
+        type: 2}
+    - target: {fileID: 11400000, guid: be73defaea5f0714eac7b179bf3af21a, type: 2}
+      propertyPath: laughHit
+      value: 
+      objectReference: {fileID: 19800000, guid: d5223f3fc5e421743808137fcd9abcd7,
+        type: 2}
+    - target: {fileID: 100000, guid: be73defaea5f0714eac7b179bf3af21a, type: 2}
+      propertyPath: m_Name
+      value: Banana2.2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: be73defaea5f0714eac7b179bf3af21a, type: 2}
   m_RootGameObject: {fileID: 1802020933}
@@ -1173,7 +1309,7 @@ Transform:
   - {fileID: 1776878594}
   - {fileID: 1112501710}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
 --- !u!1 &701091742
 GameObject:
   m_ObjectHideFlags: 0
@@ -1226,7 +1362,7 @@ GameObject:
   - 60: {fileID: 810992489}
   - 114: {fileID: 810992487}
   m_Layer: 0
-  m_Name: Banana - Row 3
+  m_Name: Banana3.1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1289,6 +1425,11 @@ MonoBehaviour:
   oldFace: {fileID: 21300000, guid: d1920268a533f194d9b8ddb6572d31dd, type: 3}
   newFace: {fileID: 21300000, guid: 8a3312bb766f7c34a8fb2f8254e20c2c, type: 3}
   lol: 0
+  canMove: 0
+  x: 0
+  y: 0
+  sleepHit: {fileID: 19800000, guid: 6b60e4b817c21404f8f659c0e1629a08, type: 2}
+  laughHit: {fileID: 19800000, guid: d5223f3fc5e421743808137fcd9abcd7, type: 2}
 --- !u!50 &810992488
 Rigidbody2D:
   m_ObjectHideFlags: 0
@@ -1361,7 +1502,7 @@ GameObject:
   - 60: {fileID: 919570915}
   - 114: {fileID: 919570913}
   m_Layer: 0
-  m_Name: Banana - Row 4
+  m_Name: Banana4.4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1424,6 +1565,11 @@ MonoBehaviour:
   oldFace: {fileID: 21300000, guid: d1920268a533f194d9b8ddb6572d31dd, type: 3}
   newFace: {fileID: 21300000, guid: 8a3312bb766f7c34a8fb2f8254e20c2c, type: 3}
   lol: 0
+  canMove: 0
+  x: 0
+  y: 0
+  sleepHit: {fileID: 19800000, guid: 6b60e4b817c21404f8f659c0e1629a08, type: 2}
+  laughHit: {fileID: 19800000, guid: d5223f3fc5e421743808137fcd9abcd7, type: 2}
 --- !u!50 &919570914
 Rigidbody2D:
   m_ObjectHideFlags: 0
@@ -1535,6 +1681,46 @@ Transform:
   - {fileID: 1976824594}
   m_Father: {fileID: 673070274}
   m_RootOrder: 1
+--- !u!1 &1154593881
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1154593883}
+  - 114: {fileID: 1154593882}
+  m_Layer: 0
+  m_Name: Game Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1154593882
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1154593881}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7be565a77dbd1044c96d7f6eb0e02baf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  freeSlots: 0
+--- !u!4 &1154593883
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1154593881}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
 --- !u!1001 &1187191643
 Prefab:
   m_ObjectHideFlags: 0
@@ -1594,6 +1780,20 @@ Prefab:
       propertyPath: m_SortingLayerID
       value: 976531517
       objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 662c1879966287442b591b2be16dda5d, type: 2}
+      propertyPath: sleepHit
+      value: 
+      objectReference: {fileID: 19800000, guid: 6b60e4b817c21404f8f659c0e1629a08,
+        type: 2}
+    - target: {fileID: 11400000, guid: 662c1879966287442b591b2be16dda5d, type: 2}
+      propertyPath: laughHit
+      value: 
+      objectReference: {fileID: 19800000, guid: d5223f3fc5e421743808137fcd9abcd7,
+        type: 2}
+    - target: {fileID: 100000, guid: 662c1879966287442b591b2be16dda5d, type: 2}
+      propertyPath: m_Name
+      value: Banana1.3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 662c1879966287442b591b2be16dda5d, type: 2}
   m_RootGameObject: {fileID: 1392207332}
@@ -1612,7 +1812,7 @@ GameObject:
   - 60: {fileID: 1249792320}
   - 114: {fileID: 1249792318}
   m_Layer: 0
-  m_Name: Banana - Row 4
+  m_Name: Banana4.2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1675,6 +1875,11 @@ MonoBehaviour:
   oldFace: {fileID: 21300000, guid: d1920268a533f194d9b8ddb6572d31dd, type: 3}
   newFace: {fileID: 21300000, guid: 8a3312bb766f7c34a8fb2f8254e20c2c, type: 3}
   lol: 1
+  canMove: 0
+  x: 0
+  y: 0
+  sleepHit: {fileID: 19800000, guid: 6b60e4b817c21404f8f659c0e1629a08, type: 2}
+  laughHit: {fileID: 19800000, guid: d5223f3fc5e421743808137fcd9abcd7, type: 2}
 --- !u!50 &1249792319
 Rigidbody2D:
   m_ObjectHideFlags: 0
@@ -1747,7 +1952,7 @@ GameObject:
   - 60: {fileID: 1253388937}
   - 114: {fileID: 1253388934}
   m_Layer: 0
-  m_Name: Banana - Row 1
+  m_Name: Banana1.4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1791,6 +1996,11 @@ MonoBehaviour:
   oldFace: {fileID: 21300000, guid: d1920268a533f194d9b8ddb6572d31dd, type: 3}
   newFace: {fileID: 21300000, guid: 8a3312bb766f7c34a8fb2f8254e20c2c, type: 3}
   lol: 0
+  canMove: 0
+  x: 0
+  y: 0
+  sleepHit: {fileID: 19800000, guid: 6b60e4b817c21404f8f659c0e1629a08, type: 2}
+  laughHit: {fileID: 19800000, guid: d5223f3fc5e421743808137fcd9abcd7, type: 2}
 --- !u!212 &1253388935
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1975,6 +2185,20 @@ Prefab:
       propertyPath: m_SortingLayerID
       value: 976531517
       objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: be73defaea5f0714eac7b179bf3af21a, type: 2}
+      propertyPath: sleepHit
+      value: 
+      objectReference: {fileID: 19800000, guid: 6b60e4b817c21404f8f659c0e1629a08,
+        type: 2}
+    - target: {fileID: 11400000, guid: be73defaea5f0714eac7b179bf3af21a, type: 2}
+      propertyPath: laughHit
+      value: 
+      objectReference: {fileID: 19800000, guid: d5223f3fc5e421743808137fcd9abcd7,
+        type: 2}
+    - target: {fileID: 100000, guid: be73defaea5f0714eac7b179bf3af21a, type: 2}
+      propertyPath: m_Name
+      value: Banana2.3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: be73defaea5f0714eac7b179bf3af21a, type: 2}
   m_RootGameObject: {fileID: 423332341}
@@ -1993,7 +2217,7 @@ GameObject:
   - 60: {fileID: 1392207337}
   - 114: {fileID: 1392207335}
   m_Layer: 0
-  m_Name: Banana - Row 1
+  m_Name: Banana1.3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2049,6 +2273,11 @@ MonoBehaviour:
   oldFace: {fileID: 21300000, guid: d1920268a533f194d9b8ddb6572d31dd, type: 3}
   newFace: {fileID: 21300000, guid: 8a3312bb766f7c34a8fb2f8254e20c2c, type: 3}
   lol: 0
+  canMove: 0
+  x: 0
+  y: 0
+  sleepHit: {fileID: 19800000, guid: 6b60e4b817c21404f8f659c0e1629a08, type: 2}
+  laughHit: {fileID: 19800000, guid: d5223f3fc5e421743808137fcd9abcd7, type: 2}
 --- !u!212 &1392207336
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2264,6 +2493,20 @@ Prefab:
       propertyPath: m_SortingLayerID
       value: 976531517
       objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 23499e645f6915c42bfb676d486cbe06, type: 2}
+      propertyPath: sleepHit
+      value: 
+      objectReference: {fileID: 19800000, guid: 6b60e4b817c21404f8f659c0e1629a08,
+        type: 2}
+    - target: {fileID: 11400000, guid: 23499e645f6915c42bfb676d486cbe06, type: 2}
+      propertyPath: laughHit
+      value: 
+      objectReference: {fileID: 19800000, guid: d5223f3fc5e421743808137fcd9abcd7,
+        type: 2}
+    - target: {fileID: 100000, guid: 23499e645f6915c42bfb676d486cbe06, type: 2}
+      propertyPath: m_Name
+      value: Banana4.1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 23499e645f6915c42bfb676d486cbe06, type: 2}
   m_RootGameObject: {fileID: 2057122960}
@@ -2282,7 +2525,7 @@ GameObject:
   - 60: {fileID: 1456717448}
   - 114: {fileID: 1456717446}
   m_Layer: 0
-  m_Name: Banana - Row 3
+  m_Name: Banana3.3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2345,6 +2588,11 @@ MonoBehaviour:
   oldFace: {fileID: 21300000, guid: d1920268a533f194d9b8ddb6572d31dd, type: 3}
   newFace: {fileID: 21300000, guid: 8a3312bb766f7c34a8fb2f8254e20c2c, type: 3}
   lol: 1
+  canMove: 0
+  x: 0
+  y: 0
+  sleepHit: {fileID: 19800000, guid: 6b60e4b817c21404f8f659c0e1629a08, type: 2}
+  laughHit: {fileID: 19800000, guid: d5223f3fc5e421743808137fcd9abcd7, type: 2}
 --- !u!50 &1456717447
 Rigidbody2D:
   m_ObjectHideFlags: 0
@@ -2458,7 +2706,7 @@ GameObject:
   - 60: {fileID: 1509089490}
   - 114: {fileID: 1509089488}
   m_Layer: 0
-  m_Name: Banana - Row 1
+  m_Name: Banana1.1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2514,6 +2762,11 @@ MonoBehaviour:
   oldFace: {fileID: 21300000, guid: d1920268a533f194d9b8ddb6572d31dd, type: 3}
   newFace: {fileID: 21300000, guid: 8a3312bb766f7c34a8fb2f8254e20c2c, type: 3}
   lol: 0
+  canMove: 0
+  x: 0
+  y: 0
+  sleepHit: {fileID: 19800000, guid: 6b60e4b817c21404f8f659c0e1629a08, type: 2}
+  laughHit: {fileID: 19800000, guid: d5223f3fc5e421743808137fcd9abcd7, type: 2}
 --- !u!212 &1509089489
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2618,7 +2871,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
 --- !u!1 &1516759214
 GameObject:
   m_ObjectHideFlags: 0
@@ -2757,7 +3010,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 1
 --- !u!1 &1690627966
 GameObject:
   m_ObjectHideFlags: 0
@@ -2822,7 +3075,7 @@ GameObject:
   - 60: {fileID: 1734357114}
   - 114: {fileID: 1734357112}
   m_Layer: 0
-  m_Name: Banana - Row 3
+  m_Name: Banana3.2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2885,6 +3138,11 @@ MonoBehaviour:
   oldFace: {fileID: 21300000, guid: d1920268a533f194d9b8ddb6572d31dd, type: 3}
   newFace: {fileID: 21300000, guid: 8a3312bb766f7c34a8fb2f8254e20c2c, type: 3}
   lol: 0
+  canMove: 0
+  x: 0
+  y: 0
+  sleepHit: {fileID: 19800000, guid: 6b60e4b817c21404f8f659c0e1629a08, type: 2}
+  laughHit: {fileID: 19800000, guid: d5223f3fc5e421743808137fcd9abcd7, type: 2}
 --- !u!50 &1734357113
 Rigidbody2D:
   m_ObjectHideFlags: 0
@@ -3013,7 +3271,7 @@ GameObject:
   - 60: {fileID: 1802020938}
   - 114: {fileID: 1802020936}
   m_Layer: 0
-  m_Name: Banana - Row 2
+  m_Name: Banana2.2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3076,6 +3334,11 @@ MonoBehaviour:
   oldFace: {fileID: 21300000, guid: d1920268a533f194d9b8ddb6572d31dd, type: 3}
   newFace: {fileID: 21300000, guid: 8a3312bb766f7c34a8fb2f8254e20c2c, type: 3}
   lol: 0
+  canMove: 0
+  x: 0
+  y: 0
+  sleepHit: {fileID: 19800000, guid: 6b60e4b817c21404f8f659c0e1629a08, type: 2}
+  laughHit: {fileID: 19800000, guid: d5223f3fc5e421743808137fcd9abcd7, type: 2}
 --- !u!50 &1802020937
 Rigidbody2D:
   m_ObjectHideFlags: 0
@@ -3187,7 +3450,7 @@ GameObject:
   - 60: {fileID: 1855769328}
   - 114: {fileID: 1855769326}
   m_Layer: 0
-  m_Name: Banana - Row 4
+  m_Name: Banana4.3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3250,6 +3513,11 @@ MonoBehaviour:
   oldFace: {fileID: 21300000, guid: d1920268a533f194d9b8ddb6572d31dd, type: 3}
   newFace: {fileID: 21300000, guid: 8a3312bb766f7c34a8fb2f8254e20c2c, type: 3}
   lol: 0
+  canMove: 0
+  x: 0
+  y: 0
+  sleepHit: {fileID: 19800000, guid: 6b60e4b817c21404f8f659c0e1629a08, type: 2}
+  laughHit: {fileID: 19800000, guid: d5223f3fc5e421743808137fcd9abcd7, type: 2}
 --- !u!50 &1855769327
 Rigidbody2D:
   m_ObjectHideFlags: 0
@@ -3378,6 +3646,20 @@ Prefab:
       propertyPath: m_SortingLayerID
       value: 976531517
       objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: b05a10b9aaa9f2840a074f636f74e297, type: 2}
+      propertyPath: sleepHit
+      value: 
+      objectReference: {fileID: 19800000, guid: 6b60e4b817c21404f8f659c0e1629a08,
+        type: 2}
+    - target: {fileID: 11400000, guid: b05a10b9aaa9f2840a074f636f74e297, type: 2}
+      propertyPath: laughHit
+      value: 
+      objectReference: {fileID: 19800000, guid: d5223f3fc5e421743808137fcd9abcd7,
+        type: 2}
+    - target: {fileID: 100000, guid: b05a10b9aaa9f2840a074f636f74e297, type: 2}
+      propertyPath: m_Name
+      value: Banana3.1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b05a10b9aaa9f2840a074f636f74e297, type: 2}
   m_RootGameObject: {fileID: 810992484}
@@ -3471,7 +3753,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 2c8d0f14731ff8343bc0fc7a0809132c, type: 2}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 21200010, guid: 2c8d0f14731ff8343bc0fc7a0809132c, type: 2}
       propertyPath: m_SortingLayerID
@@ -3494,6 +3776,10 @@ Prefab:
       value: 976531517
       objectReference: {fileID: 0}
     - target: {fileID: 21200000, guid: 2c8d0f14731ff8343bc0fc7a0809132c, type: 2}
+      propertyPath: m_SortingLayerID
+      value: 976531517
+      objectReference: {fileID: 0}
+    - target: {fileID: 21200014, guid: 2c8d0f14731ff8343bc0fc7a0809132c, type: 2}
       propertyPath: m_SortingLayerID
       value: 976531517
       objectReference: {fileID: 0}
@@ -3561,6 +3847,20 @@ Prefab:
       propertyPath: m_SortingLayerID
       value: 976531517
       objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 662c1879966287442b591b2be16dda5d, type: 2}
+      propertyPath: sleepHit
+      value: 
+      objectReference: {fileID: 19800000, guid: 6b60e4b817c21404f8f659c0e1629a08,
+        type: 2}
+    - target: {fileID: 11400000, guid: 662c1879966287442b591b2be16dda5d, type: 2}
+      propertyPath: laughHit
+      value: 
+      objectReference: {fileID: 19800000, guid: d5223f3fc5e421743808137fcd9abcd7,
+        type: 2}
+    - target: {fileID: 100000, guid: 662c1879966287442b591b2be16dda5d, type: 2}
+      propertyPath: m_Name
+      value: Banana1.2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 662c1879966287442b591b2be16dda5d, type: 2}
   m_RootGameObject: {fileID: 482413113}
@@ -3613,7 +3913,7 @@ SpriteRenderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_SortingLayerID: 0
+  m_SortingLayerID: 976531517
   m_SortingOrder: 9
   m_Sprite: {fileID: 21300000, guid: 5852cc5d592a686428ffddc22696ddca, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -3698,7 +3998,7 @@ Transform:
   - {fileID: 275243881}
   - {fileID: 701091743}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
 --- !u!1001 &2035513289
 Prefab:
   m_ObjectHideFlags: 0
@@ -3758,6 +4058,20 @@ Prefab:
       propertyPath: m_SortingLayerID
       value: 976531517
       objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 23499e645f6915c42bfb676d486cbe06, type: 2}
+      propertyPath: sleepHit
+      value: 
+      objectReference: {fileID: 19800000, guid: 6b60e4b817c21404f8f659c0e1629a08,
+        type: 2}
+    - target: {fileID: 11400000, guid: 23499e645f6915c42bfb676d486cbe06, type: 2}
+      propertyPath: laughHit
+      value: 
+      objectReference: {fileID: 19800000, guid: d5223f3fc5e421743808137fcd9abcd7,
+        type: 2}
+    - target: {fileID: 100000, guid: 23499e645f6915c42bfb676d486cbe06, type: 2}
+      propertyPath: m_Name
+      value: Banana4.2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 23499e645f6915c42bfb676d486cbe06, type: 2}
   m_RootGameObject: {fileID: 1249792315}
@@ -3776,7 +4090,7 @@ GameObject:
   - 60: {fileID: 2057122965}
   - 114: {fileID: 2057122963}
   m_Layer: 0
-  m_Name: Banana - Row 4
+  m_Name: Banana4.1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3839,6 +4153,11 @@ MonoBehaviour:
   oldFace: {fileID: 21300000, guid: d1920268a533f194d9b8ddb6572d31dd, type: 3}
   newFace: {fileID: 21300000, guid: 8a3312bb766f7c34a8fb2f8254e20c2c, type: 3}
   lol: 0
+  canMove: 0
+  x: 0
+  y: 0
+  sleepHit: {fileID: 19800000, guid: 6b60e4b817c21404f8f659c0e1629a08, type: 2}
+  laughHit: {fileID: 19800000, guid: d5223f3fc5e421743808137fcd9abcd7, type: 2}
 --- !u!50 &2057122964
 Rigidbody2D:
   m_ObjectHideFlags: 0
@@ -3911,7 +4230,7 @@ GameObject:
   - 60: {fileID: 2078893920}
   - 114: {fileID: 2078893918}
   m_Layer: 0
-  m_Name: Banana - Row 3
+  m_Name: Banana3.4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3974,6 +4293,11 @@ MonoBehaviour:
   oldFace: {fileID: 21300000, guid: d1920268a533f194d9b8ddb6572d31dd, type: 3}
   newFace: {fileID: 21300000, guid: 8a3312bb766f7c34a8fb2f8254e20c2c, type: 3}
   lol: 0
+  canMove: 0
+  x: 0
+  y: 0
+  sleepHit: {fileID: 19800000, guid: 6b60e4b817c21404f8f659c0e1629a08, type: 2}
+  laughHit: {fileID: 19800000, guid: d5223f3fc5e421743808137fcd9abcd7, type: 2}
 --- !u!50 &2078893919
 Rigidbody2D:
   m_ObjectHideFlags: 0
@@ -4075,7 +4399,7 @@ Transform:
   - {fileID: 1855769324}
   - {fileID: 919570911}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
 --- !u!1 &2137847123
 GameObject:
   m_ObjectHideFlags: 0
@@ -4089,7 +4413,7 @@ GameObject:
   - 60: {fileID: 2137847128}
   - 114: {fileID: 2137847126}
   m_Layer: 0
-  m_Name: Banana - Row 2
+  m_Name: Banana2.1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4152,6 +4476,11 @@ MonoBehaviour:
   oldFace: {fileID: 21300000, guid: d1920268a533f194d9b8ddb6572d31dd, type: 3}
   newFace: {fileID: 21300000, guid: 8a3312bb766f7c34a8fb2f8254e20c2c, type: 3}
   lol: 1
+  canMove: 0
+  x: 0
+  y: 0
+  sleepHit: {fileID: 19800000, guid: 6b60e4b817c21404f8f659c0e1629a08, type: 2}
+  laughHit: {fileID: 19800000, guid: d5223f3fc5e421743808137fcd9abcd7, type: 2}
 --- !u!50 &2137847127
 Rigidbody2D:
   m_ObjectHideFlags: 0
@@ -4224,7 +4553,7 @@ GameObject:
   - 60: {fileID: 2139301476}
   - 114: {fileID: 2139301474}
   m_Layer: 0
-  m_Name: Banana - Row 2
+  m_Name: Banana2.4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4287,6 +4616,11 @@ MonoBehaviour:
   oldFace: {fileID: 21300000, guid: d1920268a533f194d9b8ddb6572d31dd, type: 3}
   newFace: {fileID: 21300000, guid: 8a3312bb766f7c34a8fb2f8254e20c2c, type: 3}
   lol: 0
+  canMove: 0
+  x: 0
+  y: 0
+  sleepHit: {fileID: 19800000, guid: 6b60e4b817c21404f8f659c0e1629a08, type: 2}
+  laughHit: {fileID: 19800000, guid: d5223f3fc5e421743808137fcd9abcd7, type: 2}
 --- !u!50 &2139301475
 Rigidbody2D:
   m_ObjectHideFlags: 0
@@ -4400,6 +4734,20 @@ Prefab:
     - target: {fileID: 21200000, guid: be73defaea5f0714eac7b179bf3af21a, type: 2}
       propertyPath: m_SortingLayerID
       value: 976531517
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: be73defaea5f0714eac7b179bf3af21a, type: 2}
+      propertyPath: sleepHit
+      value: 
+      objectReference: {fileID: 19800000, guid: 6b60e4b817c21404f8f659c0e1629a08,
+        type: 2}
+    - target: {fileID: 11400000, guid: be73defaea5f0714eac7b179bf3af21a, type: 2}
+      propertyPath: laughHit
+      value: 
+      objectReference: {fileID: 19800000, guid: d5223f3fc5e421743808137fcd9abcd7,
+        type: 2}
+    - target: {fileID: 100000, guid: be73defaea5f0714eac7b179bf3af21a, type: 2}
+      propertyPath: m_Name
+      value: Banana2.4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: be73defaea5f0714eac7b179bf3af21a, type: 2}
